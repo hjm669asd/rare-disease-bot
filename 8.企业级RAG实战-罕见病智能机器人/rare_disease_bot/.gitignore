@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Runtime data
+storage/sessions.db
+storage/metadata.json
+storage/uploads/
+
+# Generated files
+backend/storage/
+backend/eval_report.json
+backend/eval_report.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+~$*
+
+# FAISS index (regenerated on startup)
+*.faiss
+*.pkl

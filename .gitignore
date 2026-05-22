@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Runtime data (chapter 8)
+8.企业级RAG实战-罕见病智能机器人/rare_disease_bot/storage/
+8.企业级RAG实战-罕见病智能机器人/rare_disease_bot/backend/storage/
+8.企业级RAG实战-罕见病智能机器人/rare_disease_bot/backend/eval_report.json
+8.企业级RAG实战-罕见病智能机器人/rare_disease_bot/backend/eval_report.txt
+
+# FAISS index (regenerated on startup)
+*.faiss
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+~$*
+
+# Excel data files (large)
+*.xlsx
